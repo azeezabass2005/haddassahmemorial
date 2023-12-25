@@ -13,7 +13,7 @@
 body {
   font-family: 'Titillium Web', sans-serif;
   scroll-behavior: smooth;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .make-donation {
