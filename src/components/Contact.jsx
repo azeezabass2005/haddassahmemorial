@@ -9,7 +9,7 @@ const Contact = () => {
                 Contact us
             </h1>
         </div>
-        <div className='flex gap-12 w-full justify-around'>
+        <div className='flex gap-12 w-full flex-wrap justify-around'>
             <div className='flex gap-4'>
                 <img src={locationlogo} alt="location" className='h-14 w-14' />
                 <address>
