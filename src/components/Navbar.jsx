@@ -20,10 +20,10 @@ const Navbar = () => {
             <div className='flex items-center gap-2'>
                 <img src={haddassahlogo} alt="hm" className='h-12 w-12' />
                 <Link to={'/'} className='text-[goldenrod] vs:flex hidden xs:text-[18px] text-[17px] font-bold'>
-                    Haddassah Memorial
+                    Hadassah Memorial
                 </Link>
                 <Link to={'/'} className='text-[goldenrod] vs:hidden flex text-[18px] font-bold'>
-                    Haddassah M
+                    Hadassah M
                 </Link>
             </div>
             <div className='md:flex hidden gap-10 justify-between basis-3/5'>

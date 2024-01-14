@@ -1,6 +1,7 @@
 import React from 'react'
 import { services } from '../constants'
 import { Link } from 'react-router-dom'
+import { gallery1 } from '../assets'
 
 const Service = () => {
   return (
@@ -10,25 +11,14 @@ const Service = () => {
                 Our Services
             </h1>
         </div>
-        <div className='flex flex-row gap-8 flex-wrap justify-center items-center'>
+        <div className='gap-8 grid grid-rows-2 grid-cols-2 flex-wrap justify-center items-center'>
             {
                 services.map((service, index) => (
-                    <div key={index} className='bg-[#daa520] rounded-b-md pt-[0.4rem] max-w-[300px]'>
-                        <div className='flex flex-col bg-[#fff] drop-shadow-md p-3 rounded-b-md'>
-                            <div className='flex gap-8 items-center p-2'>
-                                <img src={service.img} alt={service.title} className='h-10 w-10' />
-                                <h3 className='font-semibold text-[24px]'>{service.title}</h3>
-                            </div>
-                            <div className='flex p-2 bg-[#ffe] rounded-b-md drop-shadow-md gap-2'>
-                                <div className='flex items-center flex-col'>
-                                    <div className='min-h-4 min-w-4 bg-[#daa520] rounded-full' />
-                                    <div className='w-1 h-full rounded-b-md bg-[#daa520]' />
-                                </div>
-                                <p>
-                                    {service.description}
-                                </p>
-                            </div>
-                        </div>
+                    <div key={index} className={``}>
+                        <img src={service.img} alt="" />
+                        <h3 className='text-[30px] px-2 italic underline font-semibold'>
+                            {service.title}
+                        </h3>
                     </div>
                 ))
             }

@@ -13,7 +13,7 @@ const Contact = () => {
             <div className='flex gap-4'>
                 <img src={locationlogo} alt="location" className='h-14 w-14' />
                 <address>
-                    Haddassah Memorial <br />
+                    Hadassah Memorial <br />
                     5, Lorem Address <br />
                     Ikeja Lagos <br />
                     Nigeria
@@ -29,7 +29,7 @@ const Contact = () => {
                 <a href="mailto:info@haddassahmemorial.com" className='flex gap-2'>
                     <img src={mail} alt="" className='h-8 w-8' />
                     <p>
-                        info@haddassahmemorial.com
+                        info@hadassahmemorial.com
                     </p>
                 </a>
             </div>

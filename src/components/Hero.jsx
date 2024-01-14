@@ -7,7 +7,7 @@ const Hero = () => {
     <div className='flex md:flex-row flex-col vs:gap-[2rem] gap-[1rem] justify-center items-center py-4 md:pb-12 border-b-[goldenrod] border-b-2'>
         <div className='flex flex-col vs:gap-2 gap-1 basis-3/5'>
             <p className='bg-[#ffe] uppercase text-[15px] font-semibold drop-shadow-md w-fit py-1 px-2 rounded-md'>
-                At Haddassah 😊
+                At Hadassah 😊
             </p>
             <h2 className='md:text-[35px] vs:text-[30px] text-[24px] font-semibold md:max-w-[540px]'>
                 Inspiring Change and Promoting Volunteerism for a Better Tomorrow.

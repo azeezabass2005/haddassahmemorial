@@ -1,4 +1,4 @@
-import { communityservice, volunteeropportunities, educationalprogramme, resources, networkingevents } from "../assets";
+import { communityservice, volunteeropportunities, educationalprogramme, resources, networkingevents, gallery1, gallery12, gallery16, gallery18, gallery20, gallery25, gallery29, gallery30, gallery35 } from "../assets";
 
 export const navLinks = [
     {
@@ -7,7 +7,7 @@ export const navLinks = [
     },
     {
         "name": "About",
-        "link": '#about',
+        "link": '/about',
     },
     {
         "name": "Services",
@@ -21,30 +21,26 @@ export const navLinks = [
 
 export const services = [
     {
-     title: "Community Service Events",
-     description: "We organize regular community service events, bridging gaps and strengthening communities.",
-     img: communityservice,
+     title: "Social Development and inclusion",
+     img: gallery1,
     },
     {
-     title: "Volunteer Opportunities",
-     description: "We connect members with volunteer opportunities in various fields, enabling them to contribute to causes they care about.",
-     img: volunteeropportunities,
+     title: "Economic Empowerment",
+     img: gallery12,
     },
     {
-     title: "Educational Programs",
-     description: "We deliver educational programs on various topics, enhancing members' knowledge and fostering a culture of lifelong learning.",
-     img: educationalprogramme,
+     title: "Health and Service Provision",
+     img: gallery35,
     },
     {
-     title: "Support and Resources",
-     description: "We offer emotional and practical support to members, providing resources for coping with challenges and dealing with stress.",
-     img: resources,
+     title: "The Girl-Child Education",
+     img: gallery18,
     },
-    {
-     title: "Networking Events",
-     description: "We host networking events and social gatherings, facilitating connections between members and professionals in the field.",
-     img: networkingevents
-    }
+    // {
+    //  title: "Networking Events",
+    //  description: "We host networking events and social gatherings, facilitating connections between members and professionals in the field.",
+    //  img: gallery20
+    // }
    ];
    
 export const benefits = [

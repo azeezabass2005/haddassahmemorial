@@ -6,6 +6,7 @@ import { uparrow } from './assets'
 import Footer from './components/Footer'
 import Gallery from './pages/gallery/Gallery'
 import Donation from './pages/donation/Donation'
+import About from './pages/about/About'
 
 const App = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -42,6 +43,7 @@ const App = () => {
         <Route index element={<Home/>} />
         <Route path='/gallery'  element={<Gallery />} />
         <Route path='/donation'  element={<Donation />} />
+        <Route path='/about'  element={<About />} />
       </Routes>
       {showScrollButton && (
         <button onClick={scrollToTop} className='fixed bottom-[30px] right-[20px] p-2 rounded-full z-[5] bg-[goldenrod]'>
