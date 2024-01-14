@@ -5,7 +5,7 @@ const About = () => {
     <div className='sm:px-16 md:px-24 px-4 py-4 md:pt-12 flex flex-col md:mt-20 mt-20'>
       <div className="flex justify-between sm:items-end items-center sm:flex-row flex-col py-4 md:pb-12 border-b-[goldenrod] border-b-2 gap-8">
         <h2 className='md:text-[40px] vs:text-[30px] text-[24px] font-bold basis-1/5'>
-          Our Story
+          About Us
         </h2>
         <div className="flex basis-5/6">
           <img src={gallery15} alt="" />
