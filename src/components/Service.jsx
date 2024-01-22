@@ -14,7 +14,7 @@ const Service = () => {
         <div className='gap-8 grid grid-rows-2 sm:grid-cols-2 flex-wrap justify-center items-center'>
             {
                 services.map((service, index) => (
-                    <div key={index} className={` p-4 bg-[#ffe] rounded-lg`}>
+                    <div key={index} className={` p-4 bg-[#bba] rounded-lg`}>
                         <img src={service.img} alt="" className={`rounded-md ${index > 1 ? 'hidden' : ''}`} />
                         <div className={`${index < 2 ? 'hidden' : 'flex'} justify-center items-center text-[30px] font-semibold text-[#000] bg-[goldenrod] h-full w-full rounded-md min-h-[250px] p-5`}>
                             Coming soon...
