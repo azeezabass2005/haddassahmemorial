@@ -14,9 +14,9 @@ const Service = () => {
         <div className='gap-8 grid grid-rows-2 sm:grid-cols-2 flex-wrap justify-center items-center'>
             {
                 services.map((service, index) => (
-                    <div key={index} className={` p-4 bg-[#daa52050] rounded-lg`}>
+                    <div key={index} className={` p-4 bg-[#ffe] rounded-lg`}>
                         <img src={service.img} alt="" className={`rounded-md ${index > 1 ? 'hidden' : ''}`} />
-                        <div class name={`${index < 2 ? 'hidden' : 'flex'} justify-center items-center text-[20px] text-[#000] h-full w-full min-h-[200px] p-5`}>
+                        <div class name={`${index < 2 ? 'hidden' : 'flex'} justify-center items-center text-[20px] text-[#000] bg-[#fff] h-full w-full min-h-[200px] p-5`}>
                             Coming soon...
                         </div>
                         <h3 className='text-[30px] px-2 italic underline font-semibold'>
