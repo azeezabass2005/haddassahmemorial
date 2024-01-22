@@ -15,7 +15,10 @@ const Service = () => {
             {
                 services.map((service, index) => (
                     <div key={index} className={` p-4 bg-[#daa52050] rounded-lg`}>
-                        <img src={service.img} alt="" className='rounded-md' />
+                        <img src={service.img} alt="" className={`rounded-md ${index > 1 ? 'hidden' : ''}`} />
+                        <div class name={`${index < 2 ? 'hidden' : 'flex'} justify-center items-center text-[20px] text-[#000] h-full w-full min-h-[200px] p-5`}>
+                            Coming soon...
+                        </div>
                         <h3 className='text-[30px] px-2 italic underline font-semibold'>
                             {service.title}
                         </h3>
