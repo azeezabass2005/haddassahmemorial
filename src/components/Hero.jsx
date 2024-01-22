@@ -13,7 +13,7 @@ const Hero = () => {
                 Welcome To The Hadassah Foundation. Supporting Vulnerable Families and Individuals.
             </h2>
             <p className='md:text-[18px] text-[16px] leading-[30px] text-[#333] md:max-w-[500px] mb-4 mt-4'>
-                Our organization is deeply committed to fostering a culture of learning, volunteering, and community service. We believe in the transformative power of education and the importance of giving back to society. Our mission is to empower individuals through knowledge, inspire change through collective action, and promote a sense of community among our members.
+                Fueled by an unyielding passion to make a difference, the Hadassah Foundation have tirelessly worked to ensure equitable access to vital resources for the vulnerable. Our dedication and compassion has not only elevated the living standards of countless individuals but it has also ignited a fire of hope in the hearts of those who had lost it. Through our actions, we have become the embodiment of the change that we wish to see in the world.
             </p>
             <div className='flex flex-wrap gap-4'>
                 <a href='#contactus' className='border-[goldenrod] border-2 py-2 px-4 rounded-lg text-[#000] font-semibold'>
