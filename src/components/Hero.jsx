@@ -10,7 +10,7 @@ const Hero = () => {
                 At Hadassah 😊
             </p>
             <h2 className='md:text-[35px] vs:text-[30px] text-[24px] font-semibold md:max-w-[540px]'>
-                Inspiring Change and Promoting Volunteerism for a Better Tomorrow.
+                Welcome To The Hadassah Foundation. Supporting Vulnerable Families and Individuals.
             </h2>
             <p className='md:text-[18px] text-[16px] leading-[30px] text-[#333] md:max-w-[500px] mb-4 mt-4'>
                 Our organization is deeply committed to fostering a culture of learning, volunteering, and community service. We believe in the transformative power of education and the importance of giving back to society. Our mission is to empower individuals through knowledge, inspire change through collective action, and promote a sense of community among our members.
