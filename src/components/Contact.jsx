@@ -13,17 +13,17 @@ const Contact = () => {
             <div className='flex gap-4'>
                 <img src={locationlogo} alt="location" className='h-14 w-14' />
                 <address>
-                    Hadassah Memorial <br />
-                    5, Lorem Address <br />
-                    Ikeja Lagos <br />
-                    Nigeria
+                    8, Shallom Street <br />
+                    Ungwa Madami <br />
+                    Behind Burnt Brick Company<br />
+                    Kaduna
                 </address>
             </div>
             <div className='flex flex-col gap-4'>
-                <a href="tel:+2349160649124" className='flex gap-2'>
+                <a href="tel:+2349132599990" className='flex gap-2'>
                     <img src={call} alt="" className='h-8 w-8' />
                     <p>
-                        +2349160649124
+                        +2349132599990
                     </p>
                 </a>
                 <a href="mailto:info@haddassahmemorial.com" className='flex gap-2'>
