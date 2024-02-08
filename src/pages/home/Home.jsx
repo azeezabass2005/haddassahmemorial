@@ -11,8 +11,8 @@ const Home = () => {
     <div className='sm:px-16 md:px-24 px-4 py-4 md:pt-12 flex flex-col md:mt-20 mt-20'>
       <Hero />
       <AboutSection />
+      <Benefits />
       <Service />
-      {/* <Benefits /> */}
       <Contact />
     </div>
   )

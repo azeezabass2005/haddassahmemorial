@@ -49,7 +49,7 @@ const Navbar = () => {
                 <div onClick={handleNavToggle}>
                     <img src={menuicon} className='h-12 w-15' alt="menu" />
                 </div>
-                <div className={`absolute left-0 ${showNav ? '' : '-translate-x-full'}  flex justify-start vs:pl-10 pl-2 xs:p-5 p-2 xs:top-[81px] vs:top-[77px] top-[68px] bg-[#ffe] w-[100%] min-h-svh transform transition-all duration-500 ease-in-out`}>
+                <div className={`absolute left-0 ${showNav ? '' : '-translate-x-full'}  flex justify-start vs:pl-10 pl-2 xs:p-5 p-2 xs:top-[81px] vs:top-[73px] top-[68px] bg-[#ffe] w-[100%] min-h-svh transform transition-all duration-500 ease-in-out`}>
                     <ul className='flex flex-col vs:gap-8 gap-2 w-full'>
                         {navLinks.map((navlink, index) => (
                             <li onClick={handleNavToggle} key={index} className='font-semibold hover:text-[goldenrod] hover:font-bold border-b-[goldenrod] border-b-2 py-2 px-1'>
