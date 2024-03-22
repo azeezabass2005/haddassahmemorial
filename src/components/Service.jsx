@@ -5,7 +5,7 @@ import { gallery1 } from '../assets'
 
 const Service = () => {
   return (
-    <div id='services' className='flex flex-col vs:gap-[2.5rem] gap-[1rem] justify-center items-center py-10 md:py-20 border-b-[goldenrod] border-b-2'>
+    <div id='programmes' className='flex flex-col vs:gap-[2.5rem] gap-[1rem] justify-center items-center py-10 md:py-20 border-b-[goldenrod] border-b-2'>
         <div>
             <h1 className='md:text-[34px] vs:text-[30px] text-[24px] font-semibold'>
                 Our Prorammes

@@ -11,7 +11,7 @@ export const navLinks = [
     },
     {
         "name": "Programmes",
-        "link": '#services',
+        "link": '#programmes',
     },
     {
         "name": "Gallery",

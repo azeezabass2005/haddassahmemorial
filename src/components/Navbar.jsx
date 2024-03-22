@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink, useLocation } from 'react-router-dom'
 import { navLinks } from '../constants'
 import { haddassahlogo, menuicon } from '../assets'
 import { useState } from 'react'
@@ -13,6 +13,9 @@ const Navbar = () => {
             return newState
         })
     }
+
+    const location = useLocation()
+    const currentPage = location.pathname
     
   return (
     <>
@@ -32,7 +35,7 @@ const Navbar = () => {
                         <li key={index} className='font-semibold hover:text-[goldenrod] hover:font-bold'>
                             {index !== navLinks.length - 2 ?  (<NavLink to={navlink.link}>
                                     {navlink.name}
-                                </NavLink>) : (<Link to={`/${navlink.link}`}>{navlink.name}</Link>)}
+                                </NavLink>) : (<Link to={`/${navlink.link}`} className={`${currentPage === "/" ? "flex" : "hidden"}`}>{navlink.name}</Link>)}
                         </li>
                     ))}
                 </ul>
