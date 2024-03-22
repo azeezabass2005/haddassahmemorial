@@ -1,4 +1,4 @@
-import { gallery15, gallery33, gallery34, gallery35, gallery43, quoteicon } from "../../assets"
+import { gallery15, quoteicon } from "../../assets"
 
 const About = () => {
   return (
