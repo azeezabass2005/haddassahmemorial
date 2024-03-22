@@ -32,7 +32,7 @@ const Navbar = () => {
                         <li key={index} className='font-semibold hover:text-[goldenrod] hover:font-bold'>
                             {index !== navLinks.length - 2 ?  (<NavLink to={navlink.link}>
                                     {navlink.name}
-                                </NavLink>) : (<a href={navlink.link}>{navlink.name}</a>)}
+                                </NavLink>) : (<Link to={`/${navlink.link}`}>{navlink.name}</Link>)}
                         </li>
                     ))}
                 </ul>
