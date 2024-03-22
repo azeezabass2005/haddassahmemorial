@@ -30,7 +30,7 @@ const Navbar = () => {
                 <ul className='flex gap-8 items-center'>
                     {navLinks.map((navlink, index) => (
                         <li key={index} className='font-semibold hover:text-[goldenrod] hover:font-bold'>
-                            {index === navLinks.length - 1 ?  (<NavLink to={navlink.link}>
+                            {index !== navLinks.length - 2 ?  (<NavLink to={navlink.link}>
                                     {navlink.name}
                                 </NavLink>) : (<a href={navlink.link}>{navlink.name}</a>)}
                         </li>
