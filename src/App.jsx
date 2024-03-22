@@ -41,9 +41,9 @@ const App = () => {
       </div>
       <Routes>
         <Route index element={<Home/>} />
-        <Route path='/gallery'  element={<Gallery />} />
-        <Route path='/donation'  element={<Donation />} />
         <Route path='/about'  element={<About />} />
+        {/* <Route path='/gallery'  element={<Gallery />} /> */}
+        <Route path='/donation'  element={<Donation />} />
       </Routes>
       {showScrollButton && (
         <button onClick={scrollToTop} className='fixed bottom-[30px] right-[20px] p-2 rounded-full z-[5] bg-[goldenrod]'>
