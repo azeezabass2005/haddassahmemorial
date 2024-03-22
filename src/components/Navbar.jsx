@@ -35,7 +35,7 @@ const Navbar = () => {
                         <li key={index} className='font-semibold hover:text-[goldenrod] hover:font-bold'>
                             {index !== navLinks.length - 2 ?  (<NavLink to={navlink.link}>
                                     {navlink.name}
-                                </NavLink>) : (<Link to={`/${navlink.link}`} className={`${currentPage === "/" ? "flex" : "hidden"}`}>{navlink.name}</Link>)}
+                                </NavLink>) : (<Link to={`${currentPage === "/" ? `${navlink.link}` : "/"}`} className={`${currentPage === "/" ? "flex" : "hidden"}`}>{navlink.name}</Link>)}
                         </li>
                     ))}
                 </ul>
