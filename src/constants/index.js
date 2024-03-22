@@ -10,10 +10,6 @@ export const navLinks = [
         "link": '/about-us',
     },
     {
-        "name": "Programmes",
-        "link": '#programmes',
-    },
-    {
         "name": "Gallery",
         "link": '/gallery',
     },
