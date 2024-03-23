@@ -7,14 +7,14 @@ const Donation = () => {
         <p className='italic text-[18px] max-w-[450px] text-center'>Thank you for considering a donation. Your contribution will go a long way in supporting our mission.</p>
         <div className='flex justify-center items-center mt-10 flex-wrap gap-12'>
             <div className='flex gap-4 flex-col'>
-                <h2 className='text-[24px] font-semibold'>Bank A</h2>
-                <p className='text-[20px]'> <span className='font-semibold'>Account Number:</span> 123456789</p>
-                <p className='text-[20px]'> <span className='font-semibold'>Account Name:</span> HADDASSAH MEMORIAL</p>
+                <h2 className='text-[24px] font-semibold'>STANBIC IBTC BANK A</h2>
+                <p className='text-[20px]'> <span className='font-semibold'>Account Number:</span> 0054314286</p>
+                <p className='text-[20px]'> <span className='font-semibold'>Account Name:</span> HADDASSAH MEMORIAL FOUNDATION</p>
             </div>
             <div className='flex gap-4 flex-col'>
-                <h2 className='text-[24px] font-semibold'>Bank B</h2>
-                <p className='text-[20px]'> <span className='font-semibold'>Account Number:</span> 987654321</p>
-                <p className='text-[20px]'> <span className='font-semibold'>Account Name:</span> HADDASSAH MEMORIAL</p>
+                <h2 className='text-[24px] font-semibold'>STANBIC IBTC BANK B</h2>
+                <p className='text-[20px]'> <span className='font-semibold'>Account Number:</span> 0054314286</p>
+                <p className='text-[20px]'> <span className='font-semibold'>Account Name:</span> HADDASSAH MEMORIAL FOUNDATION</p>
             </div>
         </div>
     </div>
