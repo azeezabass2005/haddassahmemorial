@@ -33,7 +33,7 @@ const Navbar = () => {
                 <ul className='flex gap-8 items-center'>
                     {navLinks.map((navlink, index) => (
                         <li key={index} className='font-semibold hover:text-[goldenrod] hover:font-bold'>
-                            {index !== navLinks.length - 2 ?  (<NavLink to={navlink.link}>
+                            {index !== navLinks.length + 2 ?  (<NavLink to={navlink.link}>
                                     {navlink.name}
                                 </NavLink>) : (<Link to={`${currentPage === "/" ? `${navlink.link}` : "/"}`} className={`${currentPage === "/" ? "flex" : "hidden"}`}>{navlink.name}</Link>)}
                         </li>
@@ -56,7 +56,7 @@ const Navbar = () => {
                     <ul className='flex flex-col vs:gap-8 gap-2 w-full'>
                         {navLinks.map((navlink, index) => (
                             <li onClick={handleNavToggle} key={index} className='font-semibold hover:text-[goldenrod] hover:font-bold border-b-[goldenrod] border-b-2 py-2 px-1'>
-                                {index === navLinks.length - 2 ?  (<NavLink to={navlink.link}>
+                                {index !== navLinks.length + 2 ?  (<NavLink to={navlink.link}>
                                     {navlink.name}
                                 </NavLink>) : (<a href={navlink.link}>{navlink.name}</a>)}
                             </li>
