@@ -61,13 +61,13 @@ const Navbar = () => {
                                 </NavLink>) : (<a href={navlink.link}>{navlink.name}</a>)}
                             </li>
                         ))}
-                        <li onClick={handleNavToggle} className='font-semibold hover:text-[goldenrod] hover:font-bold border-b-[goldenrod] border-b-2 py-2 px-1'>
+                        <li onClick={handleNavToggle}  className={`${currentPage === "/" ? "flex" : "hidden"} font-semibold hover:text-[goldenrod] hover:font-bold border-b-[goldenrod] border-b-2 py-2 px-1`}>
                             <a href="#contact">
                                 Contact
                             </a>
                         </li>
                         <div className='flex gap-4  border-b-[goldenrod] border-b-2 pb-3 px-1'>
-                            <a onClick={handleNavToggle} href='#contactus' className='border-[goldenrod] border-2 py-2 px-4 rounded-lg text-[#000] font-semibold'>
+                            <a onClick={handleNavToggle} href='#contactus'  className={`${currentPage === "/" ? "flex" : "hidden"} border-[goldenrod] border-2 py-2 px-4 rounded-lg text-[#000] font-semibold`}>
                                 Contact Us
                             </a>
                             <Link onClick={handleNavToggle} to={'/donation'} className='py-3 px-4 rounded-lg text-[#fff] make-donation duration-[1s] font-semibold'>
