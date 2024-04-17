@@ -73,6 +73,16 @@ import gallery57 from './gallery57.jpg';
 import gallery58 from './gallery58.jpg';
 import gallery59 from './gallery59.jpg';
 import gallery60 from './gallery60.jpg';
+import gallery61 from './gallery61.jpg';
+import gallery62 from './gallery62.jpg';
+import gallery63 from './gallery63.jpg';
+import gallery64 from './gallery64.jpg';
+import gallery65 from './gallery65.jpg';
+import gallery66 from './gallery66.jpg';
+import gallery67 from './gallery67.jpg';
+import gallery68 from './gallery68.jpg';
+import gallery69 from './gallery69.jpg';
+import gallery70 from './gallery70.jpg';
 
 export {
     haddassahlogo,
@@ -149,5 +159,15 @@ export {
     gallery57,
     gallery58,
     gallery59,
-    gallery60
+    gallery60,
+    gallery61,
+    gallery62,
+    gallery63,
+    gallery64,
+    gallery65,
+    gallery66,
+    gallery67,
+    gallery68,
+    gallery69,
+    gallery70,
 };

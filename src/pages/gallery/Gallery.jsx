@@ -1,4 +1,4 @@
-import { gallery1, gallery10, gallery11, gallery13, gallery14, gallery15, gallery16, gallery17, gallery19, gallery2, gallery20, gallery21, gallery22, gallery23, gallery24, gallery25, gallery26, gallery27, gallery29, gallery3, gallery30, gallery31, gallery32, gallery33, gallery34, gallery35, gallery36, gallery39, gallery4, gallery40, gallery41, gallery5, gallery6, gallery7, gallery8, gallery9 } from '../../assets'
+import { gallery1, gallery10, gallery11, gallery13, gallery14, gallery15, gallery16, gallery17, gallery19, gallery2, gallery20, gallery21, gallery22, gallery23, gallery24, gallery25, gallery26, gallery29, gallery3, gallery30, gallery31, gallery32, gallery33, gallery34, gallery35, gallery36, gallery39, gallery4, gallery40, gallery41, gallery5, gallery6, gallery61, gallery62, gallery63, gallery64, gallery65, gallery66, gallery67, gallery68, gallery69, gallery7, gallery70, gallery9 } from '../../assets'
 
 const Gallery = () => {
   return (
@@ -7,6 +7,16 @@ const Gallery = () => {
           Explore Our Gallery
         </h2>
         <div className='flex justify-center items-center w-full flex-wrap gap-8'>
+          <img src={gallery61} className="rounded-lg sm:w-[45%] border-4 border-[#daa520]" loading='lazy' alt="Image 1" />
+          <img src={gallery62} className="rounded-lg sm:w-[45%] border-4 border-[#daa520]" loading='lazy' alt="Image 1" />
+          <img src={gallery63} className="rounded-lg sm:w-[45%] border-4 border-[#daa520]" loading='lazy' alt="Image 1" />
+          <img src={gallery64} className="rounded-lg sm:w-[45%] border-4 border-[#daa520]" loading='lazy' alt="Image 1" />
+          <img src={gallery65} className="rounded-lg sm:w-[45%] border-4 border-[#daa520]" loading='lazy' alt="Image 1" />
+          <img src={gallery66} className="rounded-lg sm:w-[45%] border-4 border-[#daa520]" loading='lazy' alt="Image 1" />
+          <img src={gallery67} className="rounded-lg sm:w-[45%] border-4 border-[#daa520]" loading='lazy' alt="Image 1" />
+          <img src={gallery68} className="rounded-lg sm:w-[45%] border-4 border-[#daa520]" loading='lazy' alt="Image 1" />
+          <img src={gallery69} className="rounded-lg sm:w-[45%] border-4 border-[#daa520]" loading='lazy' alt="Image 1" />
+          <img src={gallery70} className="rounded-lg sm:w-[45%] border-4 border-[#daa520]" loading='lazy' alt="Image 1" />
           <img src={gallery1} className="rounded-lg sm:w-[45%] border-4 border-[#daa520]" loading='lazy' alt="Image 1" />
           <img src={gallery3} className="rounded-lg sm:w-[45%] border-4 border-[#daa520]" loading='lazy' alt="Image 1" />
           <img src={gallery9} className="rounded-lg sm:w-[45%] border-4 border-[#daa520]" loading='lazy' alt="Image 1" />
@@ -41,7 +51,6 @@ const Gallery = () => {
           <img src={gallery2} className="rounded-lg sm:w-[45%] border-4 border-[#daa520]" loading='lazy' alt="Image 1" />
           <img src={gallery32} className="rounded-lg sm:w-[45%] border-4 border-[#daa520]" loading='lazy' alt="Image 1" />
           <img src={gallery40} className="rounded-lg sm:w-[45%] border-4 border-[#daa520]" loading='lazy' alt="Image 1" />
-
         </div>
     </div>
   )
